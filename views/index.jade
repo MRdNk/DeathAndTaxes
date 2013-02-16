@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p.quote "#{quote}"
+    p.auth #{auth}
+  div 
+    - each item, i in wards
+      a(data-id=i)= item
+  div(style='width: 1000px; height: 600px')#chart1

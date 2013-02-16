@@ -1,0 +1,37 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.quote {
+  padding: 0px;
+  margin: 0px;  
+}
+
+.auth {
+  font-family: "Kaushan";
+  font-size:  16px;
+}
+
+h1 {
+  font-family: "Alex Brush";
+  font-size: 45px;
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "Alex Brush";
+  src: url("AlexBrush-Regular-OTF.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Kaushan";
+  src: url("KaushanScript-Regular.otf") format("opentype");
+}

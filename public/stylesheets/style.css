@@ -17,6 +17,9 @@ a {
 .auth {
   font-family: "Kaushan";
   font-size:  16px;
+  float: right;
+  margin-top: 0px;
+  margin-right: 100px;
 }
 
 h1 {
